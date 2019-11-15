@@ -1,6 +1,6 @@
 # Damn Vulnerable Web Application
 
-docker run --rm -p 80:80 --name dvwa milobahg/dvwa:latest
+docker run --rm -it -p 80:80 vulnerables/web-dvwa
 
 Click 'create/reset-db' on the first page, default difficulty is set to impossible (you may want to drop that down!)
 
